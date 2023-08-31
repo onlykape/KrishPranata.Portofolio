@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Successful Completion of  Fundamental of Cyber Security",
+    "by": "Course-Net",
+    "image": "./certification/Fundamental-of-Cyber-Security-Pre-Course.jpg",
+    "category": "Cyber Security",
+    "links": {
+      "credentials": "https://course-net.com/certificate-verifier/1330D964D-12D745370-302F573/"
+    }
+  },
+  {
+    "name": "Have completed the online skinny 'Basic Computer Network' organized",
+    "by": "ID-Networkers (IDN.ID)",
+    "image": "./certification/Krish-Pranata-Jaringan-Dasar-Sertifikat-Jaringan-Komputer-Dasar-LMS-ID-Networkers_page-0001.jpg",
+    "category": "Network",
+    "links": {
+      "credentials": "https://lms.idn.id/cert-verification/?certificate_id=IDN-1674239166-180-10290"
+    }
+  },
+  {
+    "name": "Successfully cleared the Assessment for the Skill Python",
+    "by": "HackerRank",
+    "image": "./certification/python_basic certificate_page-0001.jpg",
+    "category": "programming",
+    "links": {
+      "credentials": "https://www.hackerrank.com/certificates/3a6dc25bf412"
+    }
+  },
+  {
+    "name": "Successfully cleared the Assessment for the Skill SQL",
+    "by": "HackerRank",
+    "image": "./certification/sql_basic certificate_page-0001.jpg",
+    "category": "programming",
+    "links": {
+      "credentials": "https://www.hackerrank.com/certificates/6a6af4a4eed6"
+    }
+  },
+  {
+    "name": "Successful Completion of Fundamental of Data Science",
+    "by": "Course-Net",
+    "image": "./certification/Fundamental-of-Data-Science-Pre-Course-2023-Februari-Course-Net.jpg",
+    "category": "programming",
+    "links": {
+      "credentials": "https://course-net.com/certificate-verifier/1330D964D-12D745372-302F573/"
+    }
+  },
+  {
+    "name": "Have completed the online skinny 'Cisco Basic' organized",
+    "by": "ID-Networkers (IDN.ID)",
+    "image": "./certification/Krish-Pranata-Cisco-Dasar-Sertifikat-Cisco-Dasar-LMS-ID-Networkers_page-0001.jpg",
+    "category": "Network",
+    "links": {
+      "credentials": "https://lms.idn.id/?p=1065&certificate_id=IDN-1674225225-184-10290"
+    }
+  },
+  {
+    "name": "Successfully cleared the Assessment for the Skill Problem Solving",
+    "by": "HackerRank",
+    "image": "./certification/problem_solving_basic certificate.jpg",
+    "category": "Problem Solving",
+    "links": {
+      "credentials": "https://www.hackerrank.com/certificates/aed2d06b5b0f"
+    }
+  }
+]

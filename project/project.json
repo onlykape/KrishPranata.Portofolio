@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Mobile Programming",
+    "tech": "Java, Kotlin",
+    "image": "./assets/img/project/mobile.png",
+    "desc": "This is my first project. I learned in lectures during practicum to create android-based mobile applications.",
+    "links": {
+      "demo": "https://telegra.ph/Mobile-Android-08-31",
+      "code": "https://github.com/onlykape?tab=repositories&q=tugas&type=&language=&sort="
+    }
+  },
+  {
+    "title": "Computer Network configuration in Cisco Packet Tracer",
+    "tech": "Mikrotik, Cisco",
+    "image": "./assets/img/project/jaringan.jpg",
+    "desc": "This is the computer network configuration that I designed in Cisco Packet Tracer.",
+    "links": {
+      "demo": "https://telegra.ph/Computer-Network-configuration-in-Cisco-Packet-Tracer-08-31",
+      "code": "https://drive.google.com/file/d/1iPSHs7j6Rl0qlOkbsTBQDVb_D-UhtsSs/view"
+    }
+  },
+  {
+    "title": "IOT",
+    "tech": "Internet Of Things",
+    "image": "./assets/img/project/iot.png",
+    "desc": "This is my first IOT project",
+    "links": {
+      "demo": "https://telegra.ph/IOT-SMART-GARAGE-08-31",
+      "code": "https://drive.google.com/open?id=13-sUsYvtM3HmMNUT--7S7bCk7f4T5JNk&usp=drive_fs"
+    }
+  }
+]
