@@ -1,5 +1,15 @@
 [
   {
+    "title": "Website Sistem Informasi",
+    "tech": "Laravel",
+    "image": "./assets/img/project/laravel.png",
+    "desc": "This is my project during my internship at Jember Customs.",
+    "links": {
+      "demo": "http://103.219.251.246/~mobilema/",
+      "code": "Error"
+    }
+  },
+  {
     "title": "Mobile Programming",
     "tech": "Java, Kotlin",
     "image": "./assets/img/project/mobile.png",
