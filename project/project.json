@@ -1,21 +1,32 @@
 [
   {
-    "title": "Website Sistem Informasi",
-    "tech": "Laravel",
-    "image": "./assets/img/project/laravel.png",
-    "desc": "This is my project during my internship at Jember Customs.",
-    "links": {
-      "demo": "http://103.219.251.246/~mobilema/"
-    }
-  },
-  {
-    "title": "Website Sistem Informasi",
+    "title": "Website Sistem Informasi Penerimaan Magang Beacukai",
     "tech": "Laravel",
     "image": "./assets/img/project/laravel.png",
     "desc": "This is my project during my internship at Jember Customs.",
     "links": {
       "demo": "http://103.219.251.246/~mobilema/",
       "code": "Maaf tidak diberi akses"
+    }
+  },
+  {
+    "title": "Website Sistem Informasi Kost",
+    "tech": "Laravel",
+    "image": "./assets/img/project/siskost.png",
+    "desc": "This is my project assignment in the information systems course.",
+    "links": {
+      "demo": "https://telegra.ph/Video-Pembuatan-Web-SI-10-19",
+      "code": "Maaf tidak diberi akses"
+    }
+  },
+  {
+    "title": "UI/UX",
+    "tech": "Figma",
+    "image": "./assets/img/project/mobile.png",
+    "desc": "This is my first project. I learned in lectures during practicum to create android-based mobile applications.",
+    "links": {
+      "demo": "https://telegra.ph/Mobile-Android-08-31",
+      "code": "https://github.com/onlykape?tab=repositories&q=tugas&type=&language=&sort="
     }
   },
   {
@@ -29,16 +40,6 @@
     }
   },
   {
-    "title": "Network Configuration",
-    "tech": "Mikrotik, Cisco",
-    "image": "./assets/img/project/jaringan.jpg",
-    "desc": "This is the computer network configuration that I designed in Cisco Packet Tracer.",
-    "links": {
-      "demo": "https://telegra.ph/Computer-Network-configuration-in-Cisco-Packet-Tracer-08-31",
-      "code": "https://drive.google.com/file/d/1iPSHs7j6Rl0qlOkbsTBQDVb_D-UhtsSs/view"
-    }
-  },
-  {
     "title": "IOT",
     "tech": "Internet Of Things",
     "image": "./assets/img/project/iot.png",
@@ -46,6 +47,16 @@
     "links": {
       "demo": "https://telegra.ph/IOT-SMART-GARAGE-08-31",
       "code": "https://drive.google.com/open?id=13-sUsYvtM3HmMNUT--7S7bCk7f4T5JNk&usp=drive_fs"
+    }
+  },
+  {
+    "title": "Network Configuration",
+    "tech": "Mikrotik, Cisco",
+    "image": "./assets/img/project/jaringan.jpg",
+    "desc": "This is the computer network configuration that I designed in Cisco Packet Tracer.",
+    "links": {
+      "demo": "https://telegra.ph/Computer-Network-configuration-in-Cisco-Packet-Tracer-08-31",
+      "code": "https://drive.google.com/file/d/1iPSHs7j6Rl0qlOkbsTBQDVb_D-UhtsSs/view"
     }
   }
 ]

@@ -87,13 +87,6 @@ function showProject(project) {
                     <i class="fas fa-eye"></i>
                     Demo
                 </a>
-                <a
-                    href="${project.links.code}"
-                    class="btn"
-                    target="_blank">
-                    <i class="fas fa-code"></i>
-                    Code
-                </a>
             </div>
         </div>
     </div>
