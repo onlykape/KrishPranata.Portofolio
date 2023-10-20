@@ -1,9 +1,9 @@
 [
   {
     "title": "Website Sistem Informasi Penerimaan Magang Beacukai",
-    "tech": "Laravel",
+    "tech": "Laravel, CPanel",
     "image": "./assets/img/project/laravel.png",
-    "desc": "This is my project during my internship at Jember Customs.",
+    "desc": "This is my project during my internship at customs, creating a web information system and internship acceptance with laravel.",
     "links": {
       "demo": "http://103.219.251.246/~mobilema/",
       "code": "Maaf tidak diberi akses"
@@ -11,9 +11,9 @@
   },
   {
     "title": "Website Sistem Informasi Kost",
-    "tech": "Laravel",
+    "tech": "Laravel, PHP Native",
     "image": "./assets/img/project/siskost.png",
-    "desc": "This is my project assignment in the information systems course.",
+    "desc": "Above is my project in the form of a boarding information system web with the laravel framework",
     "links": {
       "demo": "https://telegra.ph/Video-Pembuatan-Web-SI-10-19",
       "code": "Maaf tidak diberi akses"
@@ -22,20 +22,20 @@
   {
     "title": "UI/UX",
     "tech": "Figma",
-    "image": "./assets/img/project/mobile.png",
-    "desc": "This is my first project. I learned in lectures during practicum to create android-based mobile applications.",
+    "image": "./assets/img/project/figma.png",
+    "desc": "The above project is a High Fidelity Design entitled Prototype Application for Mobile Using Figma",
     "links": {
-      "demo": "https://telegra.ph/Mobile-Android-08-31",
+      "demo": "https://www.figma.com/proto/lS1qbG6K0LC3enaye3yjYD/GeForce-Logistik?type=design&node-id=41-312&scaling=scale-down&page-id=0%3A1&starting-point-node-id=41%3A312",
       "code": "https://github.com/onlykape?tab=repositories&q=tugas&type=&language=&sort="
     }
   },
   {
     "title": "Mobile Programming",
-    "tech": "Java, Kotlin",
+    "tech": "Java, Kotlin, Android Studio",
     "image": "./assets/img/project/mobile.png",
     "desc": "This is my first project. I learned in lectures during practicum to create android-based mobile applications.",
     "links": {
-      "demo": "https://telegra.ph/Mobile-Android-08-31",
+      "demo": "https://s.id/KapeMobProg",
       "code": "https://github.com/onlykape?tab=repositories&q=tugas&type=&language=&sort="
     }
   },
