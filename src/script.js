@@ -85,7 +85,7 @@ function showProject(project) {
                     class="btn"
                     target="_blank">
                     <i class="fas fa-eye"></i>
-                    Demo
+                    Demo Project
                 </a>
             </div>
         </div>
