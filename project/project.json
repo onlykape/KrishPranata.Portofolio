@@ -15,8 +15,8 @@
     "image": "./assets/img/project/siskost.png",
     "desc": "Above is my project in the form of a boarding information system web with the laravel framework",
     "links": {
-      "demo": "https://telegra.ph/Video-Pembuatan-Web-SI-10-19",
-      "code": "Maaf tidak diberi akses"
+      "demo": "./assets/project-1.html",
+      "code": "Maaf tidak diberi akses .https://telegra.ph/Video-Pembuatan-Web-SI-10-19"
     }
   },
   {
@@ -35,8 +35,8 @@
     "image": "./assets/img/project/mobile.png",
     "desc": "This is my first project. I learned in lectures during practicum to create android-based mobile applications.",
     "links": {
-      "demo": "https://s.id/KapeMobProg",
-      "code": "https://github.com/onlykape?tab=repositories&q=tugas&type=&language=&sort="
+      "demo": "./assets/project-2.html",
+      "code": "https://github.com/onlykape?tab=repositories&q=tugas&type=&language=&sort= .https://s.id/KapeMobProg"
     }
   },
   {
@@ -45,8 +45,8 @@
     "image": "./assets/img/project/iot.png",
     "desc": "This is my first IOT project",
     "links": {
-      "demo": "https://telegra.ph/IOT-SMART-GARAGE-08-31",
-      "code": "https://drive.google.com/open?id=13-sUsYvtM3HmMNUT--7S7bCk7f4T5JNk&usp=drive_fs"
+      "demo": "./assets/project-3.html",
+      "code": "https://drive.google.com/open?id=13-sUsYvtM3HmMNUT--7S7bCk7f4T5JNk&usp=drive_fs . https://telegra.ph/IOT-SMART-GARAGE-08-31"
     }
   },
   {
@@ -55,8 +55,8 @@
     "image": "./assets/img/project/jaringan.jpg",
     "desc": "This is the computer network configuration that I designed in Cisco Packet Tracer.",
     "links": {
-      "demo": "https://telegra.ph/Computer-Network-configuration-in-Cisco-Packet-Tracer-08-31",
-      "code": "https://drive.google.com/file/d/1iPSHs7j6Rl0qlOkbsTBQDVb_D-UhtsSs/view"
+      "demo": "./assets/project-4.html",
+      "code": "https://drive.google.com/file/d/1iPSHs7j6Rl0qlOkbsTBQDVb_D-UhtsSs/view . https://telegra.ph/Computer-Network-configuration-in-Cisco-Packet-Tracer-08-31"
     }
   }
 ]

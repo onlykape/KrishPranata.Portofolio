@@ -2,6 +2,11 @@
 <html lang="en">
 
 <head>
+  <style>
+    .home {
+      padding-top: 95px;
+    }
+  </style>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="keywords"
@@ -10,18 +15,18 @@
     content="Welcome to krish's Portfolio. IT Support, Programmer, Network Engginer and Content Creator" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
-  <link rel="stylesheet" href="src/style.css" />
+  <link rel="stylesheet" href="../src/style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
     integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="icon" href="assets\img\sdcicon.svg" type="svg">
+  <link rel="icon" href="../assets/img/sdcicon.svg" type="svg">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <link id="favicon" rel="shortcut icon" href="./assets/img/sdcicon.svg" />
+  <link id="favicon" rel="shortcut icon" href="../assets/img/sdcicon.svg" />
   <title>Krish Pranata</title>
 </head>
 
 <body class="click-trigger">
-  <nav class="navbar d-flex w-100 position-fixed navbar-expand-lg navbar-light bg-transparent">
+  <nav class="navbar d-flex w-100 position-fixed navbar-expand-lg navbar-light bg-white">
     <div class="container">
       <a class="navbar-brand">
         <svg id="icon-bg" width="70" height="70" viewbox="0 0 486 486" xmlns="http://www.w3.org/2000/svg">
@@ -44,16 +49,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item mx-2">
-            <a class="nav-link" href="#home">Home</a>
-          </li>
-          <li class="nav-item mx-2">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="nav-item mx-2">
-            <a class="nav-link" href="#certification">Certification</a>
-          </li>
-          <li class="nav-item mx-2">
-            <a class="nav-link" href="#project">Projects</a>
+            <a class="nav-link">Project Mobile Programming</a>
           </li>
         </ul>
         <form>
@@ -68,240 +64,128 @@
     <div id="particles-js" class="position-absolute"></div>
     <div class="content d-flex flex-wrap flex-row">
       <div class="intro">
-        <h2>
-          Hi There 👋<br />
-          I'm
-          <span>Krish</span>
-          Pranata
-        </h2>
-        <p>I Am a <span class="typing-text"></span></p>
-        <a href="#contact" class="btn mt-5 mb-0">
-          <span>Get in touch</span>
-          <i class="fas fa-arrow-circle-down"></i>
-        </a>
-        <div class="socials mt-4 position-relative">
-          <ul class="social-icons my-0 px-0">
-            <li class="d-inline-block">
-              <a class="linkedin d-inline-block" aria-label="LinkedIn" href="https://www.linkedin.com/in/kape911"
-                target="_blank">
-                <i class="fab fa-linkedin"></i>
-              </a>
-            </li>
-            <li class="d-inline-block">
-              <a class="github d-inline-block" aria-label="GitHub" href="https://github.com/onlykape" target="_blank">
-                <i class="fab fa-github"></i>
-              </a>
-            </li>
-            <li class="d-inline-block">
-              <a class="instagram d-inline-block" aria-label="Instagram" href="https://www.instagram.com/onlykape/"
-                target="_blank">
-                <i class="fab fa-instagram"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="image">
-        <img draggable="false" src="assets/img/profile1.jpg" alt="" />
-      </div>
-    </div>
-  </section>
-  <section class="about" id="about">
-    <div class="container d-flex flex-column">
-      <div class="title" data-aos="fade-down" data-aos-duration="1000">
-        <h2 class="text-center">
-          <i class="fas fa-user-alt"></i>
-          About
-          <span>Me</span>
-        </h2>
-      </div>
-      <div class="content d-flex align-items-center justify-content-center">
-        <div class="image" data-aos="fade-right" data-aos-duration="1000">
-          <img src="assets/img/sdcs-profile.png" draggable="false" />
-        </div>
-        <div class="intro" data-aos="fade-left" data-aos-duration="1000">
-          <h3>I'm Krish</h3>
-          <span class="tagline">IT Support</span>
-          <p>
-            Now, I am 24 years old. I live in East Java, Indonesia. I am a graduate of S1 Informatics.
-            I am very passionate to improve my code, IT Support, Computer Networking & Developing Websites and also an
-            Cyber Security enthusiast.
-            I work for myself and freelance to improve my skills.
-            I love learning new things related to technology, fixing computer problems, programming, analyzing computer
-            networks and of course also in the field of cyber security.
-          </p>
-          <div class="hire-me">
-            <p>
-              <span>
-                <i class="fa fa-envelope"></i>
-                Email :
-              </span>
-              kpranata911@gmail.com
-            </p>
-            <p>
-              <span>
-                <i class="fa fa-map-marked"></i>
-                Place :
-              </span>
-              East Java, Indonesia
-            </p>
-          </div>
-          <div class="cv-btn d-flex flex-column">
-            <a href="#skills" class="btn btn-outline-primary">
-              <span>Skills & Abilitties</span>
-              <i class="fas fa-arrow-circle-down"></i>
-            </a>
-            <a href="assets/img/resume-CV.pdf" class="btn btn-outline-primary" download>
-              <span>Download CV</span>
-              <i class="fas fa-download"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="skills d-flex flex-column" id="skills">
-      <div class="container d-flex flex-column">
-        <div class="title" data-aos="fade-down" data-aos-duration="1000">
-          <h2>
-            <i class="fas fa-laptop-code"></i>
-            Skills & Abilitties
-          </h2>
-        </div>
-        <div class="box" data-aos="fade-right" data-aos-duration="1000">
-          <h3>Mobile <span>Developer</span></h3>
-          <div class="image">
-            <img draggable="false" src="assets/img/skills/icons8-android-studio.svg" alt="Android Studio" />
-            <img draggable="false" src="assets/img/skills/icons8-java.svg" alt="Java" />
-          </div>
-        </div>
-        <div class="box d-flex flex-column align-items-center justify-content-center" data-aos="fade-left"
-          data-aos-duration="1000">
-          <h3>Web <span>Developer</span></h3>
-          <div class="image">
-            <img draggable="false" src="assets/img/skills/laravel.svg" alt="Laravel" />
-            <img draggable="false" src="assets/img/skills/icons8-html-5.svg" alt="HTML5" />
-            <img draggable="false" src="assets/img/skills/icons8-css3.svg" alt="CSS3" />
-            <img draggable="false" src="assets/img/skills/icons8-javascript.svg" alt="JS" />
-            <img draggable="false" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
-              alt="PHP" />
-            <img draggable="false" src="assets/img/skills/icons8-bootstrap.svg" alt="Bootstrap" />
-            <img draggable="false" src="assets/img/skills/icons8-visual-studio.svg" alt="VSCode" />
-            <img draggable="false" src="assets/img/skills/icons8-github.svg" alt="Github" />
-            <img draggable="false"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original-wordmark.svg"
-              alt="Heroku" />
-            <img draggable="false" src="assets/img/skills/icons8-replit.svg" alt="Replit" />
-            <img draggable="false" src="assets/img/skills/railway-app-light.svg" alt="Railway" />
-          </div>
-        </div>
-        <div class="box" data-aos="fade-right" data-aos-duration="1000">
-          <h3>UI/UX <span>Designer</span></h3>
-          <div class="image">
-            <img draggable="false" src="assets/img/skills/icons8-figma.svg" alt="Figma" />
-          </div>
-        </div>
-        <div class="box d-flex flex-column align-items-center justify-content-center" data-aos="fade-left"
-          data-aos-duration="1000">
-          <h3>Internet Of Things <span>IOT</span></h3>
-          <div class="image">
-            <img draggable="false" src="assets/img/skills/Arduino_Logo.svg" alt="Arduino IDE" />
-          </div>
-        </div>
-        <div class="box" data-aos="fade-right" data-aos-duration="1000">
-          <h3>Computer <span>Network</span></h3>
-          <div class="image">
-            <img draggable="false" src="assets/img/skills/cisco_logo_icon_169399.svg" alt="Cisco" />
-            <img draggable="false" src="assets/img/skills/wi_mikrotik.svg" alt="Mikrotik" />
-          </div>
-        </div>
-        <div class="box" data-aos="fade-left" data-aos-duration="1000">
-          <h3>Content <span>Creator</span></h3>
-          <div class="image">
-            <img draggable="false" src="assets/img/skills/icons8-adobe-after-effects.svg" alt="After Effect" />
-            <img draggable="false" src="assets/img/skills/icons8-adobe-premiere-pro.svg" alt="Premiere Pro" />
-            <img draggable="false" src="assets/img/skills/icons8-adobe-photoshop.svg" alt="Photoshop" />
-            <img draggable="false" src="assets/img/skills/icons8-youtube.svg" alt="Youtube" />
-            <img draggable="false" src="assets/img/skills/icons8-tiktok.svg" alt="Tiktok" />
-          </div>
-        </div>
-        <div class="box" data-aos="fade-right" data-aos-duration="1000">
-          <h3> Another Progra<span>mming Language</span></h3>
-          <div class="image">
-            <img draggable="false" src="assets/img/skills/icons8-c++.svg" alt="C++" />
-            <img draggable="false"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" alt="SQL" />
-            <img draggable="false" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
-              alt="Python" />
-            <img draggable="false" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
-              alt="C#" />
+        <div class="container">
+          <h2 class="text-center mb-4" data-aos="fade-down" data-aos-duration="1000">Mobile Programming Project</h2>
+          <h3 class="text-center mb-4" data-aos="fade-down" data-aos-duration="1000">Mobile app using Android Studio step by step</h3>
+          
+          <!-- List of topics -->
+          <div class="row">
+            <!-- Activity and Intent -->
+            <div class="col-md-6 mb-4" data-aos="fade-right" data-aos-duration="1000">
+              <div class="card">
+                <h5 class="card-title">1. Activity dan Intent</h5>
+                <p class="card-text">Klik to view page</p>
+                <img src="https://kapenote.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F602af023-3902-4dd0-92bd-49daabec0088%2F1f69f40c-a1e3-4765-946b-c14254684013%2FUntitled.png?table=block&id=5114e673-8fd7-40af-b9c2-6666fb2537b1&spaceId=602af023-3902-4dd0-92bd-49daabec0088&width=770&userId=&cache=v2" class="card-img-top" alt="Activity and Intent" >
+                <img src="https://kapenote.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F602af023-3902-4dd0-92bd-49daabec0088%2F9306298a-058a-4f7c-95e9-da28fdb303b8%2FUntitled.png?table=block&id=e1cba895-55f1-4bd2-aef3-aa059bffb272&spaceId=602af023-3902-4dd0-92bd-49daabec0088&width=770&userId=&cache=v2" class="card-img-top" alt="Activity and Intent" >
+                <img src="https://kapenote.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F602af023-3902-4dd0-92bd-49daabec0088%2F9760b183-eafd-465d-a3cd-35761da4b1d3%2FUntitled.png?table=block&id=268fcad3-6f9a-4292-9e41-9c8394123993&spaceId=602af023-3902-4dd0-92bd-49daabec0088&width=1020&userId=&cache=v2" class="card-img-top" alt="Activity and Intent" >
+              </div>
+            </div>
+
+            <!-- Fragment -->
+            <div class="col-md-6 mb-4" data-aos="fade-left" data-aos-duration="1000">
+              <div class="card">
+                <h5 class="card-title">2. Fragment</h5>
+                <p class="card-text">Klik to view page</p>
+                <img src="https://kapenote.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F602af023-3902-4dd0-92bd-49daabec0088%2Fcce64dba-8501-4cd2-8111-a7dae792f40a%2FUntitled.png?table=block&id=65beab25-df96-48be-bf87-61384406dc21&spaceId=602af023-3902-4dd0-92bd-49daabec0088&width=1300&userId=&cache=v2" class="card-img-top" alt="Fragment">
+              </div>
+            </div>
+
+            <!-- View & ViewGroup -->
+            <div class="col-md-6 mb-4" data-aos="fade-right" data-aos-duration="1000">
+              <div class="card">
+                <h5 class="card-title">3. View & ViewGroup</h5>
+                <p class="card-text">Klik to view page</p>
+                <img src="https://kapenote.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F602af023-3902-4dd0-92bd-49daabec0088%2F43611963-e57f-422c-99de-784f49da1595%2FUntitled.png?table=block&id=0da92c53-a372-4ccf-a42d-7133dce808a0&spaceId=602af023-3902-4dd0-92bd-49daabec0088&width=1300&userId=&cache=v2" class="card-img-top" alt="View & ViewGroup">
+              </div>
+            </div>
+
+            <!-- Navigasi Dan Action Bar -->
+            <div class="col-md-6 mb-4" data-aos="fade-left" data-aos-duration="1000">
+              <div class="card">
+                <h5 class="card-title">4. Navigasi Dan Action Bar</h5>
+                <p class="card-text">Klik to view page</p>
+                <img height="413" src="https://kapenote.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F602af023-3902-4dd0-92bd-49daabec0088%2F7c08ec54-66e6-4d3e-852d-285c42620d6d%2FUntitled.png?table=block&id=fdd8ff27-1d61-43a5-9739-c800b5f04149&spaceId=602af023-3902-4dd0-92bd-49daabec0088&width=740&userId=&cache=v2" class="card-img-top" alt="Navigasi Dan Action Bar">
+              </div>
+            </div>
+
+            <!-- RecyclerView -->
+            <div class="col-md-6 mb-4" data-aos="fade-right" data-aos-duration="1000">
+              <div class="card">
+                <h5 class="card-title">5. RecyclerView</h5>
+                <p class="card-text">Klik to view page</p>
+                <img height="664" src="https://kapenote.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F602af023-3902-4dd0-92bd-49daabec0088%2F1e8cda19-691c-4858-ab2e-83f42c16be73%2FUntitled.png?table=block&id=099737b3-b809-429d-8710-50454f04aa6e&spaceId=602af023-3902-4dd0-92bd-49daabec0088&width=690&userId=&cache=v2" class="card-img-top" alt="RecyclerView">
+              </div>
+            </div>
+
+            <!-- Alarm Manager -->
+            <div class="col-md-6 mb-4" data-aos="fade-left" data-aos-duration="1000">
+              <div class="card">
+                <h5 class="card-title">6. Alarm Manager</h5>
+                <p class="card-text">Klik to view page</p>
+                <img src="https://kapenote.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F602af023-3902-4dd0-92bd-49daabec0088%2Fc56b302b-b3c9-4f9a-89db-9705068e9f5e%2FUntitled.png?table=block&id=52fb39ed-5b99-4e53-aba9-0ace3f5efddb&spaceId=602af023-3902-4dd0-92bd-49daabec0088&width=1080&userId=&cache=v2" class="card-img-top" alt="Alarm Manager">
+              </div>
+            </div>
+
+            <!-- WorkManager -->
+            <div class="col-md-6 mb-4" data-aos="fade-right" data-aos-duration="1000">
+              <div class="card">
+                <h5 class="card-title">7. WorkManager</h5>
+                <p class="card-text">Klik to view page</p>
+                <img height="900" src="https://kapenote.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F602af023-3902-4dd0-92bd-49daabec0088%2Ffa2f8725-9e8e-4d9f-8a93-7c48e3d8fad9%2FUntitled.png?table=block&id=c96ade00-1ddd-4551-b416-13435ec1be1c&spaceId=602af023-3902-4dd0-92bd-49daabec0088&width=610&userId=&cache=v2" class="card-img-top" alt="WorkManager">
+              </div>
+            </div>
+
+            <!-- Sqlite Database -->
+            <div class="col-md-6 mb-4" data-aos="fade-left" data-aos-duration="1000">
+              <div class="card">
+                <h5 class="card-title">8. Sqlite Database</h5>
+                <p class="card-text">Klik to view page</p>
+                <img height="900" src="https://kapenote.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F602af023-3902-4dd0-92bd-49daabec0088%2F92b4be3b-bf53-4ff7-984e-71d4f84e62cf%2FUntitled.png?table=block&id=5ee5bb93-eb51-4a98-99b1-83005f0c0983&spaceId=602af023-3902-4dd0-92bd-49daabec0088&width=530&userId=&cache=v2" class="card-img-top" alt="Sqlite Database">
+              </div>
+            </div>
+
+            <!-- Rest API -->
+            <div class="col-md-6 mb-4" data-aos="fade-right" data-aos-duration="1000">
+              <div class="card">
+                <h5 class="card-title">9. Rest API</h5>
+                <p class="card-text">Klik to view page</p>
+                <img src="https://kapenote.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F602af023-3902-4dd0-92bd-49daabec0088%2F88041923-0c16-4396-b349-054048e2fd4a%2FUntitled.png?table=block&id=9a44a7e2-d743-44a3-b33c-f2f393a83ea0&spaceId=602af023-3902-4dd0-92bd-49daabec0088&width=1090&userId=&cache=v2" class="card-img-top" alt="Rest API">
+              </div>
+            </div>
+
+            <!-- Shared Preference -->
+            <div class="col-md-6 mb-4" data-aos="fade-left" data-aos-duration="1000">
+              <div class="card">
+                <h5 class="card-title">10. Shared Preference</h5>
+                <p class="card-text">Klik to view page</p>
+                <img height="674"src="https://kapenote.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F602af023-3902-4dd0-92bd-49daabec0088%2F9a1842e1-7a28-43a5-9621-66bf80119b7d%2FUntitled.png?table=block&id=93da4844-b5d3-441b-86f1-da85173db139&spaceId=602af023-3902-4dd0-92bd-49daabec0088&width=630&userId=&cache=v2" class="card-img-top" alt="Shared Preference">
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <section class="certification d-flex flex-column align-items-center justify-content-center" id="certification">
-    <div class="title" data-aos="fade-down" data-aos-duration="1000">
-      <h2 class="text-center">
-        <i class="fa fa-certificate"></i>
-        Certification
-      </h2>
-    </div>
-    <div class="content d-flex flex-wrap justify-content-center">
-    </div>
-    <div class="loadmore-btn my-5" data-aos="fade-down">
-      <a href="#certifications" class="btn btn-outline-primary">Load More </a>
-    </div>
-  </section>
-  <section class="project" id="project">
-    <div class="container d-flex flex-wrap justify-content-center align-items-center">
-      <div class="title" data-aos="fade-down" data-aos-duration="1000">
-        <h2 class="text-center">
-          <i class="fa fa-laptop-code"></i>
-          Projects
-        </h2>
-      </div>
-      <div class="content d-flex flex-row flex-wrap align-items-center justify-content-center" data-aos="fade-down">
-      </div>
-      <div class="viewall-btn d-flex my-5">
-        <a href="#project" class="btn btn-outline-light" data-aos="fade-down">
-          <span>View All</span>
-          <i class="fas fa-angle-right"></i>
-        </a>
-      </div>
-    </div>
-  </section>
-  <section id="contact" class="contact d-flex flex-column align-items-center justify-content-center text-center">
-    <h2 class="title" data-aos="fade-down" data-aos-duration="1000">
-      Get In <span>Touch</span>
-    </h2>
-    <p data-aos="fade-down" data-aos-duration="1000">
-      I'm currently looking for a job, my inbox is always open.
-      If you have any questions or just want to say hello, I'll do my best to get back to you!
-    </p>
-    <a data-aos="fade-down" data-aos-duration="1000" class="email-link btn btn-outline-primary"
-      href="mailto:kpranata911@gmail.com" rel="noopener noreferrer" target="_blank">Say Hello
-      <i class="fa fa-envelope"></i>
-    </a>
-  </section>
+  
   <footer id="footer" class="footer d-flex flex-column">
     <div class="top d-flex justify-content-sm-around">
       <div class="content d-flex flex-column">
-        <img src="assets/img/sdcicon.svg" alt="sdcicon" />
+        <img src="../assets/img/sdcicon.svg" alt="sdcicon" />
         <h3>Krish's Portfolio</h3>
         <p>Thank you for visiting my personal portfolio website.</p>
       </div>
       <div class="content d-flex flex-column">
         <h3>Useful Links</h3>
-        <a href="#home">
+        <a href="../index.htmlindex.html#home">
           <i class="fa fa-arrow-circle-right"></i>
           Home</a>
-        <a href="#about">
+        <a href="../index.html#about">
           <i class="fa fa-arrow-circle-right"></i>
           About</a>
-        <a href="#certification">
+        <a href="../index.html#certification">
           <i class="fa fa-arrow-circle-right"></i>
           Certification</a>
-        <a href="#project">
+        <a href="../index.html#project">
           <i class="fa fa-arrow-circle-right"></i>
           Projects</a>
       </div>
@@ -326,7 +210,7 @@
     <div class="bottom">
       <div class="text-center p-4">
         Designed by:
-        <a class="text-reset fw-bold" href="">Krish Pranata</a>
+        <a class="text-reset fw-bold" href="../index.html">Krish Pranata</a>
       </div>
     </div>
   </footer>
@@ -342,9 +226,12 @@
   <script src="https://unpkg.com/scrollreveal"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <!-- main script js -->
-  <script src="src/particle.js"></script>
-  <script src="src/app.js"></script>
-  <script src="src/script.js"></script>
+  <script src="../src/particle.js"></script>
+  <script src="../src/app.js"></script>
+  <script src="../src/script.js"></script>
+  <script>
+    AOS.init();
+  </script>  
 </body>
 
 </html>
